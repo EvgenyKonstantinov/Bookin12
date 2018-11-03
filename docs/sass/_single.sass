@@ -1,0 +1,91 @@
+.single
+	padding-right: 40px
+.single-wrapper
+	display: flex
+	justify-content: space-between
+	padding-left: 15px
+	padding-right: 15px
+
+.single__info
+	color: #809fa4
+	font-size: 14px
+	font-weight: 700
+	line-height: 22px
+	text-transform: uppercase
+
+.single__title
+	color: #000000
+	font-size: 28px
+	font-weight: 700
+
+.single__tag
+	color: #809fa4
+	font-size: 16px
+	font-weight: 400
+	line-height: 22px
+	display: inline-block
+	&:not(:last-child)::after
+		content: '.'
+		padding-left: 5px
+
+.single__price
+	font-size: 18px
+	font-weight: 700
+	margin-bottom: 14px
+	span
+		font-size: 14px
+		font-weight: 400
+
+.button
+	display: inline-block
+	border-radius: 6px
+	border: none
+	background-color: #f5585c
+	padding: 13px 15px 13px
+	color: #ffffff
+	font-size: 14px
+	font-weight: 400
+	line-height: 1
+	cursor: pointer
+	transition: 0.2s ease-in
+	&:hover, &:focus
+		color: #fff
+		text-decoration: none
+		outline: none
+		background: #df373b
+	&:active
+		color: #fff
+		text-decoration: none
+		outline: none
+		background: #eb353a
+
+.single-button-wrapper
+	margin-bottom: 17px
+
+.single--description
+	color: #333333
+	font-size: 14px
+	font-weight: 400
+	line-height: 22px
+	p
+		line-height: 1.57
+		font-size: 14px
+		color: #333333
+		margin: 0 0 15px
+
+.gallery
+	flex-shrink: 0
+
+.gallery__big
+	margin-bottom: 10px
+
+.galery-mini-wrapper
+	display: flex
+	justify-content: space-between
+
+.related-title
+	color: #000000
+	font-family: "Open Sans"
+	font-size: 22px
+	font-weight: 700
+

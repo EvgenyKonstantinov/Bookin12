@@ -1,0 +1,101 @@
+@import "libs"
+@import "fonts"
+@import "variables"
+@import "vars"
+@import "header"
+@import "single"
+
+
+
+body
+	margin: 0
+	padding: 0
+	font-family: 'Open Sans', sans-serif
+	font-size: 16px
+	background-color: #f4f4f4 
+	min-width: 320px
+
+a.admin-button
+	position: absolute
+	top: 0
+	right: -143px
+	display: flex
+	align-items: center
+	padding: 0 30px 0 20px
+	height: 51px
+	border-radius: 26px
+	background-color: #eb353a
+	color: #ffffff
+	font-size: 16px
+	font-weight: 500
+	line-height: 1
+	transition: 0.2s ease-in
+	&:hover
+		text-decoration: none
+		right: -25px
+		outline: none
+		background: lighten(#df373b, 8%)
+	&:active
+		color: #fff
+		text-decoration: none
+		outline: none
+		background: lighten(#df373b, 8%)
+
+
+.admin-button__icon
+	margin-right: 10px
+	width: 16px
+	height: 18px
+
+.admin-button-wrapper
+	top: 110px
+	position: absolute
+	display: block
+	right: 0
+	width: 200px
+	height: 51px
+	overflow: hidden
+.form
+	background-color: #f1f2f2
+	padding: 30px 30px 40px 
+	margin-top: 22px
+	margin-bottom: 30px
+
+.form__title
+	color: #000000
+	font-size: 24px
+	font-weight: 700
+	margin: 0 0 20px
+
+.form__input
+	height: 46px
+	width: 100%
+	border-radius: 6px
+	border: 2px solid #cdcdcd
+	margin-bottom: 10px
+	padding: 0 15px 0
+	color: #000
+	font-size: 16px
+	line-height: 1
+	font-weight: 600
+	&:hover
+		outline: none
+		border: 2px solid #f5585c
+	&:focus,&:active
+		outline: none
+		border: 2px solid #f5585c
+
+.booking-form-wrapper
+	margin-left: -30px
+	&::before
+		content: ''
+		display: table
+		clear: both
+
+
+
+
+
+
+
+
